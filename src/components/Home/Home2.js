@@ -14,33 +14,33 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row style={{ height: '80vh' }}>
-          <Col md={8} className="home-about-description">
+        <Row>
+          <Col md={8} className="home-about-description" >
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"><strong>INTRODUCE </strong></span> MYSELF
             </h1>
             <p className="home-about-body">
-              It all began during my college days when programming first caught my attention. At the start, 
-              I had no idea how to code, but as time went on, it felt like discovering the missing piece of a perfect puzzle. 
-              The more I learned, the more I realized how much I enjoyed solving problems and creating something meaningful through code.
+              My journey with programming started back in college, and wow, what a ride it’s been! At first, 
+              I had no clue how to code, but it didn’t take long to realize it was like finding the missing piece of a perfect puzzle. 
+              The more I dove in, the more I discovered how much I loved solving problems and bringing ideas to life through code.
               <br />
               <br />I am fluent in classics like
               <i>
                 <b className="purple"> C++, Javascript, PHP, Laravel </b>
-              </i>and basic knowledge about <b className="purple">VB.NET</b> too.
+              </i>even have a bit of knowledge in <b className="purple">VB.NET</b> too.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+                I'm passionate about building innovative &nbsp;
               <i>
-                <b className="purple">Web Applications and Services </b> 
+                <b className="purple">Web Applications and Services </b>
                 {/* <b className="purple">
                   Blockchain.
                 </b> */}
               </i>and
-              also in related areas.
+              I love keeping up with the latest trends and cutting-edge tools in the tech world..  
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              Whenever I can, I channel my passion into building amazing products with
               with <b className="purple">Laravel</b> and
               <i>
                 <b className="purple">
@@ -50,15 +50,27 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js or Inertia.js</b>
-              </i>
+                <b className="purple"> ReactJS or InertiaJS.</b> 
+              </i>  It’s all about making things fun and meaningful with code!
             </p>
           </Col>
-          <Col md={4} className="myAvtar d-flex justify-content-center align-items-center">
-            <Tilt>
+          <Col
+            md={4}
+            className="myAvtar d-flex justify-content-center align-items-center"
+            style={{ height: "75vh" }}
+          >
+            <Tilt
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+              className=""
+            >
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
+
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

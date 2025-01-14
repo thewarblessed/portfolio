@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">John Dominic Acuisa </span>
+            Hello Everyone! I am <span className="purple">John Dominic Acuisa </span>
             from <span className="purple"> Taguig, Metro Manila.</span>
             {/* <br />
             I am currently employed as a software developer at Juspay. */}
             <br />
-            I have completed my bachelors degree in Information Technology at Technological University of the Philippines - Taguig (TUP-Taguig)
+            I've just wrapped up my Bachelor's degree in Information Technology at the fantastic Technological University of the Philippines - Taguig (TUP-Taguig) in November 2024! 🎉 Ready to take on the world with all the tech knowledge and excitement I gained!
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
