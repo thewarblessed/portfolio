@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import calendash from "../../Assets/Projects/calendash.png";
+import prodify from "../../Assets/Projects/prodify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -26,12 +27,24 @@ function Projects() {
               imgPath={calendash}
               isBlog={false}
               title="Calendash"
-              description="Online venue scheduler and reservation for TUP-Taguig students to streamline events and avoid conficlicting schedules."
+              description="Calendash is an online venue scheduling and reservation platform tailored for TUP-Taguig students. Designed to streamline event planning, it helps users easily book campus venues, manage event timelines, and avoid scheduling conflicts — all in one convenient dashboard."
               ghLink="https://github.com/thewarblessed/calendash2"
               demoLink="https://calendash.online/sign-in"
             />
+            
           </Col>
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={prodify}
+              isBlog={false}
+              title="Prodify"
+              description="Developed and deployed 'Prodify', a dynamic web application built with Laravel, JavaScript, jQuery, and Bootstrap. The platform is designed to track and analyze performance metrics and production data for agents and individual branches, enabling data-driven decision-making and operational efficiency."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://prodify.com.ph"
+            />
+          </Col>
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calendash}
@@ -42,6 +55,7 @@ function Projects() {
               demoLink="https://chatify-49.web.app/"
             />
           </Col> */}
+
         </Row>
       </Container>
     </Container>
